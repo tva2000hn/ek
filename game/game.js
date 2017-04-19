@@ -208,7 +208,7 @@ Game.prototype.start = function () {
     
     //Add in bombs
     for (var i = 0; i < this.players.length - 1; i ++) {
-        this.drawPile.push(new Card(this.generateRandomID(), 'Explode', $.CARD.EXPLODE, 0));
+        this.drawPile.push(new Card(this.generateRandomID(), 'Exploding Kitten', $.CARD.EXPLODE, 0));
     }
     
     //Add in extra defuses to negate the lack of nopes
