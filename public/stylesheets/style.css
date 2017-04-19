@@ -6,7 +6,7 @@ html, body {
 }
 
 .room {
-    background-color: #19194C !important;
+    background-image:url("https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     color: white !important;
     position: absolute;
     width: 100%;
@@ -325,7 +325,7 @@ html, body {
 
 #cardInput {
     margin-top: 20px;
-    background: #111133;
+    
     height: 150px;
     position: relative;
     -webkit-box-shadow: inset 0px 0px 26px 0px rgba(0,0,0,0.75);
