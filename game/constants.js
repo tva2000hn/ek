@@ -70,7 +70,7 @@ var $ = {
         ATTACK: 'Attack',
         NOPE: 'Nope',
         DEFUSE: 'Defuse',
-        EXPLODE: 'Explode',
+        EXPLODE: 'Exploding Kitten',
         SKIP: 'Skip',
         FUTURE: 'Future',
         FAVOR: 'Favor',
