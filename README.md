@@ -1,4 +1,4 @@
-# Exploding Ketchup
+# EK clone pls
 
 An Exploding Kitten clone made with Nodejs + Express + Socket.io
 
