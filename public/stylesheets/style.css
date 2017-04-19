@@ -7,6 +7,12 @@ html, body {
 
 .room {
     background-image:url("https://s-media-cache-ak0.pinimg.com/originals/80/06/ab/8006abe31f7c1b0a7b3197045f766d86.jpg");
+	    Background-repeat: no-repeat;
+    Background-position: center;
+	-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
     color: white !important;
     position: absolute;
     width: 100%;
