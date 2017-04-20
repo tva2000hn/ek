@@ -390,11 +390,11 @@ Game.prototype.resetDeck = function() {
             }
             
             //Regular
-            this.drawPile.push(new Card(this.generateRandomID(), 'Tacocat', $.CARD.REGULAR, 4));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Catermelon', $.CARD.REGULAR, 5));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Beard Cat', $.CARD.REGULAR, 6));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Rainbow-raphing cat', $.CARD.REGULAR, 7));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Hairy Potato Cat', $.CARD.REGULAR, 8));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Tacocat', $.CARD.REGULAR.taco, 4));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Catermelon', $.CARD.REGULAR.melon, 5));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Beard Cat', $.CARD.REGULAR.beard, 6));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Rainbow-raphing cat', $.CARD.REGULAR.rainbow, 7));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Hairy Potato Cat', $.CARD.REGULAR.potato, 8));
         }
         
         this.drawPile.push(new Card(this.generateRandomID(), 'Future', $.CARD.FUTURE, 9));
