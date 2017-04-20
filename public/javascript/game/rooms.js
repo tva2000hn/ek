@@ -261,7 +261,7 @@ var GameRoom = {
         $('#namedStealPopup #cardDisplay').empty();
         $.each($C.CARD, function(key, type) {
             if (type != $C.CARD.EXPLODE) {
-                var html = "<div data-selected='false' data-type='" + type + "' class='card noselect card-" + type.toLowerCase() + image.toLowerCase() +"'>" +
+                var html = "<div data-selected='false' data-type='" + type + "' class='card noselect card-" + type.toLowerCase() + card.image.toLowerCase() +"'>" +
                                 "<span>" + type + "</span>" +
                             "</div>";
                 $('#namedStealPopup #cardDisplay').append(html);
