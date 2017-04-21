@@ -356,7 +356,7 @@ html, body {
 }
 
 .card {
-    height: 125px;
+    height: 150px;
     line-height: 125px;
     width: 110px;
     background: white;
@@ -364,7 +364,9 @@ html, body {
     border-radius: 4px;
     display: inline-block;
     margin-right: 10px;
-    border: 5px solid black;
+    color: rgba(0, 0, 0, 0);
+
+	background-size:cover;
 }
 
 .card:first-child {
@@ -373,53 +375,54 @@ html, body {
 
 .card-selected {
     background: #5bc0de;
-    color: white !important;
-    border: 5px solid white !important;
+    
+    
 }
 
 .card-nope {
-    color: #D42B31;
-    border: 5px solid #D42B31;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-attack {
-    color: #C8A755;
-    border: 5px solid #C8A755;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-skip {
-    color: #3DA8AA;
-    border: 5px solid #3DA8AA;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-defuse {
-    color: #8A9F56;
-    border: 5px solid #8A9F56;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-explode {
-    color: #CF1441;
-    border: 5px solid #CF1441;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-future {
-    color: #EA6987;
-    border: 5px solid #EA6987;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-favor {
-    color: #A9A097;
-    border: 5px solid #A9A097;
+    color: rgba(0, 0, 0, 0);
+    
 }
 
 .card-shuffle {
-    color: #973A36;
-    border: 5px solid #973A36;
+    color: rgba(0, 0, 0, 0);
+    border: 
 }
 
 .card-regular {
-    color: #B58865;
-    border: 5px solid #B58865;
+    color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: 
 }
 
 .card span{
