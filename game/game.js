@@ -208,7 +208,7 @@ Game.prototype.start = function () {
     
     //Add in bombs
     for (var i = 0; i < this.players.length - 1; i ++) {
-        this.drawPile.push(new Card(this.generateRandomID(), 'Exploding Kitten', $.CARD.EXPLODE, 0));
+        this.drawPile.push(new Card(this.generateRandomID(), 'Exploding_Kitten', $.CARD.EXPLODE, 0));
     }
     
     //Add in extra defuses to negate the lack of nopes
@@ -393,8 +393,8 @@ Game.prototype.resetDeck = function() {
             this.drawPile.push(new Card(this.generateRandomID(), 'Tacocat', $.CARD.REGULAR, 4));
             this.drawPile.push(new Card(this.generateRandomID(), 'Catermelon', $.CARD.REGULAR, 5));
             this.drawPile.push(new Card(this.generateRandomID(), 'Beard Cat', $.CARD.REGULAR, 6));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Rainbow-raphing cat', $.CARD.REGULAR, 7));
-            this.drawPile.push(new Card(this.generateRandomID(), 'Hairy Potato Cat', $.CARD.REGULAR, 8));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Rainbow-raphing_cat', $.CARD.REGULAR, 7));
+            this.drawPile.push(new Card(this.generateRandomID(), 'Hairy_Potato_Cat', $.CARD.REGULAR, 8));
         }
         
         this.drawPile.push(new Card(this.generateRandomID(), 'Future', $.CARD.FUTURE, 9));
