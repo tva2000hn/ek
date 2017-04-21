@@ -375,6 +375,8 @@ html, body {
 
 .card-selected {
     background: #5bc0de;
+    background-size: cover;
+    opacity: 0.5;
     
     
 }
